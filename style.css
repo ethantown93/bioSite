@@ -6,7 +6,12 @@ html {
 h1,h2 {
 	font-family: Helvetica, 'Times New Roman', sans-serif;
 }
-		
+
+h1 {
+	text-align: left;
+	padding-left: 80px
+}
+	
 
 p {
 	font-family: Helvetica, 'Times New Roman', sans-serif;
@@ -26,10 +31,41 @@ body {
 	margin: auto
 }	
 
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+nav {
+	float:right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 25px;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFAFA
+}
+
+nav a:hover {
+	color: #000;
+}
+
 .pictures {
 	float: left;
 	background-color: white; 
-	width: 100%;
+	width: 80%;
 	padding-bottom: 20px;
 }	
 
@@ -40,6 +76,7 @@ header, footer {
 	margin: auto;
 	background-color: #565656;
 }	
+
 
 Figure {
 	margin-bottom: 10px;
