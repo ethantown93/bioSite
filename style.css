@@ -9,9 +9,20 @@ h1,h2 {
 
 h1 {
 	text-align: left;
-	padding-left: 80px
+	padding-left: 320px;
 }
-	
+
+h3 {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+}
+
+figcaption {
+	text-align: center;
+}
 
 p {
 	font-family: Helvetica, 'Times New Roman', sans-serif;
@@ -23,21 +34,23 @@ body {
 
 	background-color: #f2f2f2;
 	font-family: Helvetica, 'Times New Roman', sans-serif;
-	padding: 100px
+	padding: 100px;
 }	
 
 .wrap {
 	width: 60%;
-	margin: auto
+	margin: auto;
 }	
 
 .container {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 }
 
 nav {
 	float:right;
+	padding-bottom: 10px;
+	padding-right:250px;
 }
 
 nav ul {
@@ -55,44 +68,62 @@ nav li {
 nav a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #FFFAFA
+	color: black;
 }
 
 nav a:hover {
-	color: #000;
+	color: #041dd8;
 }
 
 .pictures {
 	float: left;
 	background-color: white; 
-	width: 80%;
+	width: 100%;
 	padding-bottom: 20px;
+	border: 2px solid black;
 }	
 
 header, footer {
 	text-align: center;
-	border: 2px solid white;
-	width: 70%;
+	width: 100%;
 	margin: auto;
-	background-color: #565656;
 }	
 
+header {
+		border-bottom: 2px solid black;
+}
 
 Figure {
 	margin-bottom: 10px;
-	float: left;
-	border: 2px solid black:	
+	float:left;
 }	
 
 img {
 	padding-top: 20px;
 	width 250px;
-	height:250px
+	height:250px;
 
 }	
 
 footer {
 	clear: both;
-	padding-top: 20px;
+	padding-top: 50px;
+	border-bottom: 2px solid black;
 }
 
+.banner {
+	background: url(images/Istanbul.jpg) no-repeat;
+	width: 2100px;
+	height: 300px;
+	padding-bottom: 20px;
+}
+
+main {
+	padding-bottom: 20px;
+}
+
+.banner h4 {
+	color: black;
+	font-size: 14px;
+	padding: 10px;
+}
